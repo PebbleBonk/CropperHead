@@ -1,0 +1,13 @@
+# Python development:
+__pycache__/
+.ipynb_checkpoints/
+env/
+venv/
+
+
+# Project folders:
+data/
+models/
+logs/
+eval/
+checkpoints/
