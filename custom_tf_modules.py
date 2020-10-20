@@ -62,20 +62,3 @@ def custom_loss(y_true, y_pred):
     return(mse+clip_constraint)
 
 
-
-# t = tf.constant([[0, 2, 3, 4, 5],
-#                  [0, 0, 1, 1, 15],
-#                  [0, 1, 1, 0, 25],
-#                  [1, 0, 0, 1, 35],
-#                  [0.4, 1.2, 0, 0, 45]])
-# e = BK.cast((t[:, 2:4] - t[:, 0:2]), BK.floatx())
-# display(e)
-# l = BK.cast(tf.less(e, 0), BK.floatx())
-# s = BK.sum(l, axis=-1)
-# display(l)
-# v= BK.sum(l*e, axis=-1) * s
-# BK.sum(BK.square(v), axis=-1)
-
-
-def ImageAugmentator():
-    pass
